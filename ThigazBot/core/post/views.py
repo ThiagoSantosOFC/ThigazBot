@@ -9,4 +9,6 @@ def index (request):
         if content:
             print("Content:", content)
             
-            return redirect ('post')
+            return redirect ('index')
+        
+    return render (request, 'post/index.html')
