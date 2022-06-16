@@ -4,7 +4,7 @@ from django.shortcuts import redirect, render
 
 def index (request):
     if request.method == 'POST':
-        content = request.get('content', '')
+        content = request.POST.get('content', '')
         
         if content:
             print("Content:", content)
