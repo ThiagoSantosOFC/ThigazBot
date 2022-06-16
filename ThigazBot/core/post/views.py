@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 
 # Create your views here.
+
+def index (request):
+    if request.method == 'POST':
+        content = request.get('content', '')
+        
+        if content:
+            print("Content:", content)
+            
+            return redirect ('post')
