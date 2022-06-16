@@ -1,2 +1,2 @@
-# TweePy
+# ThigazBot
  Tweet with Django
