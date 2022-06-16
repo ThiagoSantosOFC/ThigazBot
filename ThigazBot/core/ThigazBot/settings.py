@@ -19,10 +19,10 @@ ALLOWED_HOSTS = []
 
 #Twitter credentiails for ThigazBot
 
-API_KEY = 'kZqpazX3bh87GL6oOi89oZXVw'
-API_KEY_SECRET ='6STl79ck8z8QfZH1sht9M3cENzlDDmFV8JPmCz15gvInKn0IQD'
-ACCESS_TOKEN ='2407874353-1M5HYMCVfKWOjOY2woNfGJUnjYI5QgqWk7egvHz'
-ACCESS_TOKEN_SECRET = 'juYXlccjKkvhuX9HpqvcKy92Bo4t55blM70ZrL8Ljg9hu'
+API_KEY = 'your api kei'
+API_KEY_SECRET ='your api key secret'
+ACCESS_TOKEN ='your access token'
+ACCESS_TOKEN_SECRET = 'your access token secret'
 
 # Application definition
 
